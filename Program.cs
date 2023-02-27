@@ -13,7 +13,7 @@ namespace TicTacToe
             do
             {
                 Console.Clear();
-                Console.WriteLine("Player 1 is X and Player 2 is O");
+                Console.WriteLine("Player 1 is X and Player 2 is O, or exit entirely");
                 if (player % 2 == 0)
                 {
                     Console.WriteLine("   Player 2 Go");
